@@ -1,0 +1,92 @@
+# ============================================
+# agent-backup - Sensitive File Exclusion
+# ============================================
+# These files contain credentials, session data,
+# or runtime state. NEVER commit them.
+
+# ── Secrets & Credentials ──────────────────
+.env
+.env.local
+*.key
+*.pem
+*.p12
+*.pfx
+*.cert
+credential*.json
+service-account*.json
+oauth_token*
+auth_token*
+
+# ── Agent Auth & Tokens ────────────────────
+auth.json
+auth.lock
+channel_directory.json
+gateway_state.json
+gateway.lock
+gateway.pid
+feishu_seen_message_ids.json
+pairing/
+
+# ── Session Data ───────────────────────────
+state.db
+state.db-shm
+state.db-wal
+sessions/
+
+# ── Cron & Runtime State ───────────────────
+cron/jobs.json
+cron/.tick.lock
+cron/output/
+
+# ── Config Backups ─────────────────────────
+config.yaml.bak.*
+config.yaml.bak*
+
+# ── Logs ───────────────────────────────────
+logs/
+*.log
+
+# ── Source Code (re-installable) ───────────
+hermes-agent/
+openclaw/
+
+# ── Dependencies & Binaries ────────────────
+lsp/
+node/
+node_modules/
+bin/
+*.exe
+
+# ── Caches ─────────────────────────────────
+cache/
+audio_cache/
+image_cache/
+.skills_prompt_snapshot.json
+
+# ── Sandbox Data ───────────────────────────
+sandboxes/
+whatsapp/
+
+# ── OS Files ───────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+._*
+
+# ── Python ─────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# ── Misc Runtime ───────────────────────────
+.hermes_history
+.update_check
+models_dev_cache.json
+.hermes_media/
+_curator_backups/
+_curator_state/
