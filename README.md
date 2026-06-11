@@ -5,7 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Platform: macOS · Linux](https://img.shields.io/badge/Platform-macOS%20%C2%B7%20Linux-blue)
 
-**agent-backup** is an open-source tool that automatically backs up your AI agent's customization — all the skills, scripts, memories, config, and persona you've built up. If your machine dies or you switch computers, restore everything in minutes.
+**🌐 Language / 语言: [English](README.md) | [中文](README.zh.md)**
+
+---
 
 Works with **Hermes Agent** and **OpenClaw**.
 

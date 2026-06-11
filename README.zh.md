@@ -2,7 +2,7 @@
 
 > **Hermes Agent 和 OpenClaw 的一键备份工具** — 备份你的技能(skills)、记忆(memories)、配置(config)、脚本(scripts)和人设(persona)。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+**🌐 语言 / Language: [中文](README.zh.md) | [English](README.md)**
 ![平台: macOS · Linux](https://img.shields.io/badge/Platform-macOS%20%C2%B7%20Linux-blue)
 
 **agent-backup** 是一个开源工具，可以自动备份你的 AI Agent 自定义内容——包括你积累的所有技能、脚本、记忆、配置和人设。如果电脑坏了或要换新机器，几分钟就能恢复。
